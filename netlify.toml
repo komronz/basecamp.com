@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production.environment]
+  NODE_VERSION = "18"
+
+[redirects]
+  # fallback for SPA routing handled by Vite
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
