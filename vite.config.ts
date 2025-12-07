@@ -5,6 +5,11 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // When deploying to GitHub Pages for a repository site hosted at
+  // https://komronz.github.io/basecamp.com/, Vite must use a base path
+  // so asset references in built HTML point to `/basecamp.com/`.
+  base: mode === "development" ? "/" : "/basecamp.com/",
+
   server: {
     host: "::",
     port: 8080,
