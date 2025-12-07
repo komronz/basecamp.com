@@ -27,100 +27,46 @@ const About = () => {
         </div>
       </section>
 
-      {/* Story Section */}
+      {/* Story & Mission (updated) */}
       <section className="section-padding">
         <div className="container-wide">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Our Story
-              </h2>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  Basecamp started in 2020 when five outdoor enthusiasts at Mountain Valley University 
-                  realized that great hiking gear was either too expensive or lacked the quality 
-                  serious hikers need. United by their love for mountain trails and weekend expeditions, 
-                  they set out to create something different.
-                </p>
-                <p>
-                  What began as a small project designing gear for fellow students quickly grew into 
-                  a full-fledged outdoor equipment company. Today, Basecamp serves thousands of hikers 
-                  across the country, maintaining the same commitment to quality and affordability 
-                  that sparked our journey.
-                </p>
-                <p>
-                  Each of our five founders brings unique expertise – from textile engineering and 
-                  product design to marketing and customer experience. Together, we test every product 
-                  on real trails, ensuring that what reaches you is truly adventure-ready.
-                </p>
-              </div>
-            </div>
-            <div className="space-y-4">
-              {teamMembers.map((member, index) => (
-                <div key={member.name} className="flex items-center gap-4 p-4 bg-muted rounded-lg">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="font-display font-bold text-primary">
-                      {member.name.charAt(0)}
-                    </span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">{member.name}</h4>
-                    <p className="text-sm text-muted-foreground">{member.role}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">About Us</h2>
+            <div className="space-y-4 text-muted-foreground">
+              <p>
+                Every great adventure starts somewhere. For us, it started on the hiking trails around Uzbekistan with a
+                group of friends who realized that the mountains were calling—and we were answering.
+              </p>
+              <p>
+                What began as weekend hikes with friends quickly transformed into something bigger. We noticed that
+                finding quality hiking gear at affordable prices was a challenge for hikers across Central Asia. Whether
+                you're a beginner lacing up your boots for the first time or an experienced mountaineer chasing the next
+                peak, options were limited and costs were high. So we decided to do something about it.
+              </p>
 
-      {/* Mission */}
-      <section className="section-padding">
-        <div className="container-wide">
-          <div className="text-center mb-12">
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Our Mission
-            </h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              We are committed to creating gear that empowers every hiker to explore further
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-6 bg-card rounded-xl border border-border card-hover">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                <Shield className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Durability</h3>
-              <p className="text-sm text-muted-foreground">
-                Built to withstand years of adventures on the toughest trails
+              <h3 className="font-display text-2xl font-semibold mt-6">Our Mission</h3>
+              <p>
+                Basecamp was born with a simple goal: to become the first widely recognized hiking shop in Uzbekistan
+                and Central Asia. We provide reliable, affordable gear that helps everyone explore the mountains and
+                trails they love.
               </p>
-            </div>
-            <div className="text-center p-6 bg-card rounded-xl border border-border card-hover">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                <Heart className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Comfort</h3>
-              <p className="text-sm text-muted-foreground">
-                Ergonomic designs that feel great mile after mile
+
+              <h3 className="font-display text-2xl font-semibold mt-6">Who We Are</h3>
+              <p>
+                We're a small team of five passionate adventurers and innovators working together to make this vision a
+                reality. We test gear on our own trails and focus on quality, value, and community.
               </p>
-            </div>
-            <div className="text-center p-6 bg-card rounded-xl border border-border card-hover">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                <Mountain className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Weather Protection</h3>
-              <p className="text-sm text-muted-foreground">
-                Stay dry and warm in any conditions nature throws at you
+
+              <h3 className="font-display text-2xl font-semibold mt-6">Why Basecamp?</h3>
+              <p>
+                We get it because we live it. We understand what a beginner needs and what a seasoned hiker demands. Our
+                products are tried on real trails so you can trust them when it matters most.
               </p>
-            </div>
-            <div className="text-center p-6 bg-card rounded-xl border border-border card-hover">
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                <Target className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Accessibility</h3>
-              <p className="text-sm text-muted-foreground">
-                Premium quality gear at fair prices for every adventurer
+
+              <h3 className="font-display text-2xl font-semibold mt-6">What's Next?</h3>
+              <p>
+                This is just the beginning. We're here to equip you, inspire you, and be your trusted companion on every
+                trail. Your adventure starts here — let's go.
               </p>
             </div>
           </div>

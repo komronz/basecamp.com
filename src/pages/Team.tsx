@@ -3,34 +3,34 @@ import { TeamMemberCard } from "@/components/team/TeamMemberCard";
 
 const teamMembers = [
   {
-    name: "Emma Johnson",
-    title: "Founder & CEO",
-    bio: "Emma discovered her love for hiking during her first year at Mountain Valley University. With a background in business and environmental science, she leads Basecamp with a focus on sustainability and customer satisfaction. Her favorite trail is the Appalachian in the Blue Ridge Mountains.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    name: "Diyora Shermuxamedova",
+    title: "Project Manager",
+    bio: "Organizes logistics, timelines, and team communication to keep the project on track. Focused on clarity and reliability.",
+    videoUrl: "https://youtube.com/shorts/3XyFvjISY9o?si=WzLbGw4hm1l4-93P",
   },
   {
-    name: "Marcus Chen",
-    title: "Lead Designer",
-    bio: "Marcus brings a unique perspective to outdoor gear design, combining his industrial design degree with years of backcountry experience. He is responsible for the ergonomic fit and aesthetic appeal of all Basecamp products. When not designing, he is exploring trails in the Pacific Northwest.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    name: "Komronbek Zokirov",
+    title: "Website Developer",
+    bio: "Builds and maintains the website with an emphasis on speed, usability, and secure performance.",
+    videoUrl: "https://youtube.com/shorts/rf4GOoz_wkY?si=rp5q29GaH2xgLnwB",
   },
   {
-    name: "Sofia Rodriguez",
+    name: "Mohinur Xabibullayeva",
+    title: "Marketing & Social Media Manager",
+    bio: "Creates engaging content and grows our community, making hiking accessible and inspiring.",
+    videoUrl: "https://youtube.com/shorts/SlQzveMJG7U?si=j4ZXth8fBU-lASVH",
+  },
+  {
+    name: "Mohinur Yangibaeva",
+    title: "Customer Service Manager",
+    bio: "Supports customers with clear communication and problem solving while balancing work and studies.",
+    videoUrl: "https://youtube.com/shorts/JPU1IlSQp7M?si=cZ7Hd6T5QvLx-P3u",
+  },
+  {
+    name: "Nigora Turdaliyeva",
     title: "Product Manager",
-    bio: "Sofia ensures every Basecamp product meets the highest standards of quality and functionality. Her textile engineering background and passion for mountaineering make her the perfect bridge between design and production. She has summited peaks on three continents.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  },
-  {
-    name: "Alex Thompson",
-    title: "Marketing Director",
-    bio: "Alex connects the Basecamp brand with outdoor enthusiasts worldwide. His marketing degree and experience as a hiking guide give him insight into what adventurers truly need. He manages our community of over 50,000 fellow hikers across social platforms.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  },
-  {
-    name: "Olivia Williams",
-    title: "Quality Assurance Lead",
-    bio: "Olivia tests every product in real-world conditions before it reaches customers. Her background in materials science and love for extreme weather hiking ensure our gear performs when it matters most. She has logged over 5,000 miles of trail testing.",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    bio: "Curates and tests our gear to ensure quality and reliability for every hike.",
+    videoUrl: "https://youtube.com/shorts/qcKhSi4ecmY?si=JECpadfD0fXWHMdT",
   },
 ];
 
@@ -84,7 +84,7 @@ const Team = () => {
             Check out our open positions and help us create the next generation of hiking gear.
           </p>
           <a 
-            href="mailto:careers@basecamp.com" 
+            href="mailto:komronbekzokirov@webster.edu" 
             className="inline-flex items-center text-primary font-medium hover:underline"
           >
             View Open Positions →

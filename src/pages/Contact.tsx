@@ -127,8 +127,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">Email</h3>
-                      <a href="mailto:support@basecamp.com" className="text-primary hover:underline">
-                        support@basecamp.com
+                      <a href="mailto:komronbekzokirov@webster.edu" className="text-primary hover:underline">
+                        komronbekzokirov@webster.edu
                       </a>
                     </div>
                   </div>
@@ -138,8 +138,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">Phone</h3>
-                      <a href="tel:+1-800-BASECAMP" className="text-primary hover:underline">
-                        +1-800-BASECAMP (227-3226)
+                      <a href="tel:+998948440820" className="text-primary hover:underline">
+                        +998948440820
                       </a>
                     </div>
                   </div>
