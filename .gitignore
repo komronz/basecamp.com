@@ -11,3 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+dist/
+assets/
+index.html
+favicon.ico
+robots.txt
+placeholder.svg
